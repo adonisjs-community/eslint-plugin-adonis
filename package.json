@@ -9,6 +9,9 @@
     "adonisjs",
     "typescript"
   ],
+  "scripts": {
+    "release": "np"
+  },
   "author": "adonisjs,virk",
   "main": "lib/index.js",
   "devDependencies": {
