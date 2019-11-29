@@ -15,7 +15,7 @@
   "author": "adonisjs,virk",
   "main": "lib/index.js",
   "devDependencies": {
-    "eslint": "~3.9.1",
+    "eslint": "~4.18.2",
     "np": "^5.1.3"
   },
   "peerDependencies": {
