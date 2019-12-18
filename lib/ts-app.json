@@ -73,9 +73,7 @@
     "@typescript-eslint/explicit-function-return-type": "off",
     "no-array-constructor": ["error"],
     "no-unreachable": ["error"],
-    "no-multi-spaces": ["error"],
-    "require-await": "off",
-    "@typescript-eslint/require-await": ["error"]
+    "no-multi-spaces": ["error"]
   },
   "overrides": [
     {
