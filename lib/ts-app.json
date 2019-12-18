@@ -39,8 +39,6 @@
     "no-invalid-regexp": ["error", { "allowConstructorFlags": ["u", "y"] }],
     "no-unused-labels": ["error"],
     "no-proto": ["error"],
-    "no-redeclare": ["error"],
-    "no-shadow": ["error"],
     "no-regex-spaces": ["error"],
     "no-self-compare": ["error"],
     "no-sparse-arrays": ["error"],
