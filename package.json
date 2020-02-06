@@ -37,7 +37,7 @@
   },
   "homepage": "https://github.com/AdonisCommunity/eslint-plugin-adonis#readme",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.13.0",
-    "@typescript-eslint/parser": "^2.13.0"
+    "@typescript-eslint/eslint-plugin": "^2.19.0",
+    "@typescript-eslint/parser": "^2.19.0"
   }
 }
