@@ -18,7 +18,10 @@
     "space-before-function-paren": "off",
     "@typescript-eslint/space-before-function-paren": ["error", "always"],
     "no-irregular-whitespace": ["error"],
-    "@typescript-eslint/indent": ["error", 2],
+    "indent": "off",
+    "@typescript-eslint/indent": ["error", 2, {
+      "ignoredNodes": ["TSTypeParameterInstantiation"]
+    }],
     "no-multiple-empty-lines": ["error", { "max": 1 }],
     "one-var": ["error", "never"],
     "no-cond-assign": ["error", "except-parens"],
