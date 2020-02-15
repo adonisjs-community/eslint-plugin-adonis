@@ -20,6 +20,8 @@
     "no-irregular-whitespace": ["error"],
     "indent": "off",
     "@typescript-eslint/indent": ["error", 2, {
+      "SwitchCase": 1,
+      "flatTernaryExpressions": false,
       "ignoredNodes": ["TSTypeParameterInstantiation"]
     }],
     "no-multiple-empty-lines": ["error", { "max": 1 }],
