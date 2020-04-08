@@ -16,7 +16,7 @@
   "main": "lib/index.js",
   "devDependencies": {
     "eslint": "^6.8.0",
-    "np": "^5.2.1"
+    "np": "^6.2.0"
   },
   "peerDependencies": {
     "eslint": "^6.8.0"
@@ -37,7 +37,7 @@
   },
   "homepage": "https://github.com/AdonisCommunity/eslint-plugin-adonis#readme",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.19.2",
-    "@typescript-eslint/parser": "^2.19.2"
+    "@typescript-eslint/eslint-plugin": "^2.27.0",
+    "@typescript-eslint/parser": "^2.27.0"
   }
 }
