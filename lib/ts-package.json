@@ -66,8 +66,32 @@
     "brace-style": ["error", "1tbs"],
     "curly": ["error", "all"],
     "no-return-await": ["off"],
-    "@typescript-eslint/class-name-casing": ["error"],
-    "@typescript-eslint/interface-name-prefix": ["error", { "prefixWithI": "never" }],
+    "@typescript-eslint/naming-convention": [
+      "error",
+      {
+        "selector": "variable",
+        "format": ["camelCase", "UPPER_CASE"]
+      },
+      {
+        "selector": "typeLike",
+        "format": ["PascalCase"]
+      },
+      {
+        "selector": "class",
+        "format": ["PascalCase"]
+      }
+    ],
+    "@typescript-eslint/naming-convention": [
+      "error",
+      {
+        "selector": "interface",
+        "format": ["PascalCase"],
+        "custom": {
+          "regex": "^I[A-Z]",
+          "match": false
+        }
+      }
+    ],
     "handle-callback-err": ["error", "^(err|error)$"],
     "max-len": ["error", {
       "code": 120,
