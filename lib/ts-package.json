@@ -79,10 +79,7 @@
       {
         "selector": "class",
         "format": ["PascalCase"]
-      }
-    ],
-    "@typescript-eslint/naming-convention": [
-      "error",
+      },
       {
         "selector": "interface",
         "format": ["PascalCase"],
