@@ -18,6 +18,9 @@
     "eslint": "^7.25.0",
     "np": "^7.5.0"
   },
+  "np": {
+    "tests": false
+  },
   "peerDependencies": {
     "eslint": "^7.0.0"
   },
