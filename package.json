@@ -41,6 +41,11 @@
   "homepage": "https://github.com/AdonisCommunity/eslint-plugin-adonis#readme",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.20.0",
-    "@typescript-eslint/parser": "^5.20.0"
+    "@typescript-eslint/parser": "^5.20.0",
+    "eslint-plugin-unicorn": "^42.0.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "tag": "next"
   }
 }
