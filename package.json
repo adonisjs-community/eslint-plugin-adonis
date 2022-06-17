@@ -15,7 +15,7 @@
   "author": "adonisjs,virk",
   "main": "lib/index.js",
   "devDependencies": {
-    "eslint": "^8.13.0",
+    "eslint": "^8.17.0",
     "np": "^7.6.1"
   },
   "np": {
@@ -40,8 +40,8 @@
   },
   "homepage": "https://github.com/AdonisCommunity/eslint-plugin-adonis#readme",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.20.0",
-    "@typescript-eslint/parser": "^5.20.0",
+    "@typescript-eslint/eslint-plugin": "^5.28.0",
+    "@typescript-eslint/parser": "^5.28.0",
     "eslint-plugin-unicorn": "^42.0.0"
   },
   "publishConfig": {
