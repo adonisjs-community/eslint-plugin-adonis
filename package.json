@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-adonis",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "ESlint rules for AdonisJs applications and addons",
   "keywords": [
     "eslint",
